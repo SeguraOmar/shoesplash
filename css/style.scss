@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+body {
+    margin: 0;
+    background-color: #f1f0f0;
+    font-family: 'Courgette', cursive;
+
+}
+
+header {
+    background-color: #f6d4f5;
+    margin-bottom: 3rem
+}
+
+#bottombar {
+    display: flex;
+    background-color: pink;
+    justify-content: space-evenly;
+
+
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+
+
+#info {
+    background-color: lightpink;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1rem;
+}
+
+
+
+
+#select {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    width: 75%;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+
+    h1 {
+        width: 100%;
+    }
+
+}
+
+#news {
+    display: flex;
+    justify-content: space-evenly;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+
+}
+
+
+
+
+
+#slider {
+    display: flex;
+    background-color: white;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
+    h2 {
+        text-align: left;
+        margin: 0.9em;
+        padding: 0.5em;
+        background-color: #f6d4f5;
+        font-size: 18px;
+        font-weight: normal;
+        position: absolute;
+    }
+
+    span {
+        font-size: 15px;
+        
+    }
+}
+
+
+article {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+#new>h2 {
+    background-color: purple;
+    color: white;
+}
+
+#best>h2 {
+    background-color: greenyellow;
+}
+
+#crush>h2 {
+    background-color: aqua;
+}
+
+
+#new {
+    background-color: white;
+}
+
+#crush {
+    background-color: white;
+}
+
+#best {
+    background-color: white;
+}
+
+#slider>img {
+    text-align: center;
+    align-items: center;
+    width: 97%;
+    margin: 1em;
+
+}
+
+.container {
+    width: 75%;
+    margin: 0 auto;
+
+}
+
+body>header>div>nav>a {
+    color: black;
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+
+}
+
+
+#cart {
+    float: right;
+    width: 20%;
+}
+
+
+#cart > i {
+    position: relative;
+    bottom: 1.2em;
+    left: 5em;
+    font-size: 32px;
+    color: black;
+}
